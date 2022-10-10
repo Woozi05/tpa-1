@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* RESET STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(60, 96, 164);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: aliceblue;
+  }
+
+h1 {
+  display: inline-block;
+}
+  
+.logo {
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+ul {
+    display: flex;
+  }
+  
+ul li {
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
+ul li a {
+    padding: 8px 20px;
+    color:black
+  }
+  
+ul li a:hover {
+    color: rgb(60, 96, 164);
+    border-bottom: 3px solid rgb(60, 96, 164);
+  }
+
+ /* HOME */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 50px;
+    margin-top: 100px;
+  }
+  
+.home-text h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+  }
+  
+.home-text span {
+    color: rgb(58, 72, 98);
+  }
+
+img {
+    width: 230px;
+    margin-right: 150px;
+}
+
+/* FOOTER */
+footer {
+  background-color: aliceblue;
+  height: 70px;
+  margin-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  
+}
+
+/* ABOUT */
+.about {
+  margin: 50px 100px;
+  width: 700px;
+}
+
+.about-me h1 {
+  margin: 10px 0px;
+}
+
+.reason {
+  margin-top: 10px;
+}
+
+.reason h1 {
+  margin: 10px 0px;
+}
+
+/* PORTFOLIO */
+.project {
+  margin: 50px;
+}
+
+.project h1 {
+  margin-bottom: 20px;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.img1 img {
+  width: 450px;
+  height: 250px;
+  margin-right: 130px;
+}
+
+.img2 img {
+  height: 300px;
+ width: 200px;
+ margin-right: 130px;
+ border-radius: 10px;
+}
+
+.img3 img {
+ height: 300px;
+ width: 150px;
+ margin-bottom: 10px;
+ border-radius: 10px;
+}
+
+/* BLOG */
+.blog {
+  display: flex;
+  flex-direction: row;
+}
+
+.article1 {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.article1 img {
+  width: 600px;
+}
+
+.article1 span {
+  color: rgb(147, 146, 145);
+}
+
+.article1 p {
+  width: 600px;
+  color: black;
+}
+
+.sidebar  {
+  margin-top: 20px;
+}
+
+.judul {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.list span {
+  color: black;
+  font-size: 10px;
+}
+
+.list img {
+  width: 50px;
+  margin-right: 5px;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+}
+
